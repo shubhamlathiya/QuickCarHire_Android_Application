@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Notification Settings">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="amount_alert"
+            android:title="Amount Receive Alert" />
+
+        <SeekBarPreference
+            android:defaultValue="50"
+            android:key="ring_volume"
+            android:max="100"
+            android:title="Ring Volume" />
+
+        <RingtonePreference
+            android:key="ringtone"
+            android:ringtoneType="notification"
+            android:title="Ringtone" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
